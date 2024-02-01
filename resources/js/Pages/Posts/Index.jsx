@@ -29,9 +29,9 @@ export default function PostIndex({ posts, session }) {
                         <table className="table table-bordered table-striped">
                             <thead>
                                 <tr>
-                                    <th scope="col">TITLE</th>
-                                    <th scope="col">CONTENT</th>
-                                    <th scope="col">ACTIONS</th>
+                                    <th scope="col">Title</th>
+                                    <th scope="col">Content</th>
+                                    <th scope="col">Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
