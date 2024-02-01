@@ -46,7 +46,7 @@ export default function CreatePost({ errors }) {
 
                                 <div>
                                     <button type="submit" className="btn btn-md btn-success me-2"><i className="fa fa-save"></i> Save</button>
-                                    <button type="reset" className="btn btn-md btn-warning"><i className="fa fa-redo"></i> Reset</button>
+                                    <a href="/" type="reset" className="btn btn-md btn-warning"><i className="fa fa-redo"></i> Back</a>
                                 </div>
                             </form>
                         </div>

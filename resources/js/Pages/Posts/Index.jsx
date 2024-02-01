@@ -14,7 +14,7 @@ export default function PostIndex({ posts, session }) {
         <Layout>
             <div style={{ marginTop: '100px' }}>
 
-                <Link href="posts/create" className="btn btn-success btn-md mb-3">Tambah Post</Link>
+                <Link href="/posts/create" className="btn btn-success btn-md mb-3">Tambah Post</Link>
 
                 {session.success &&
                     (
@@ -41,7 +41,7 @@ export default function PostIndex({ posts, session }) {
                                         <td>{ post.content }</td>
                                         <td className="text-center">
                                             <Link href={`/posts/${post.id}/edit`} className="btn btn-sm btn-primary me-2">Edit</Link>
-                                            <button onClick={() => deletePost(post.id)} className="btn btn-sm btn-danger">DELETE</button>
+                                            <button onClick={() => deletePost(post.id)} className="btn btn-sm btn-danger">Delete</button>
                                         </td>
                                     </tr>
                                 ))}
